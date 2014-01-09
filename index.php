@@ -21,7 +21,7 @@ if ( 'rackspace' == OS_TYPE ) {
     ) );
 }
 
-$compute = $client->computeService( '', 'ORL' );
+$compute = $client->computeService( 'admin', 'regionOne', '' );
 
 $images = $compute->imageList();
 
