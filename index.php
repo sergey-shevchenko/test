@@ -5,10 +5,6 @@ require 'config.php';
 use OpenCloud\Rackspace;
 use OpenCloud\OpenStack;
 
-/**
- * Required to accept self-signed certificates
- */
-
 if ( 'rackspace' == OS_TYPE ) {
     $client = new Rackspace( RS_HOST, array(
         'username' => RS_USER,
