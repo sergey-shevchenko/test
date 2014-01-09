@@ -4,6 +4,7 @@
 build/
 docs/api/
 vendor/
+config.php
 
 *.log
 *.phar
