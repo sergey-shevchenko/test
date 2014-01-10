@@ -3,7 +3,6 @@
 .test/
 build/
 docs/api/
-vendor/
 config.php
 
 *.log
